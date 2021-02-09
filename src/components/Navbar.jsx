@@ -2,6 +2,7 @@ import React from 'react'
 import logo from '../logo2.png'
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faBars} from "@fortawesome/free-solid-svg-icons";
+
 const Navbar = () => {
     return (
        
