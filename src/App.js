@@ -1,15 +1,13 @@
 import './App.css';
 import "bootstrap/dist/css/bootstrap.rtl.min.css"
-import Navbar from './components/Navbar';
-import Header from './components/Header'
+import Home from './components/homePage/Home'
 
 
 function App() {
   return (
     <>
          
-        <Navbar/>
-        <Header/>
+        <Home/>
     </>      
   );
 }
