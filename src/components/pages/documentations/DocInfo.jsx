@@ -1,15 +1,16 @@
 import React from 'react';
 import styled from 'styled-components';
-import {Link,useParams} from 'react-router-dom';
-import {Button} from '../Button'
 import Avatar from './Avatar'
+import {Link, useParams} from 'react-router-dom';
+import {Button} from './Button'
+
 //DOclists
-import list1 from '../../docimages/js.png'
-import list2 from '../../docimages/physics.png'
-import list3 from '../../docimages/nodejs.png'
-import list4 from '../../docimages/c'
-import list5 from '../../docimages/hashtag.png'
-import list6 from '../../docimages/python.png'
+import list1 from './docimages/js.png'
+import list2 from './docimages/physics.png'
+import list3 from './docimages/nodejs.png'
+import list4 from './docimages/c.png'
+import list5 from './docimages/hashtag.png'
+import list6 from './docimages/python.png'
 
 
 
@@ -66,7 +67,7 @@ const Docs = [
         occupation:'Python is an easy to learn, powerful programming language. It has efficient high-level data structures and a simple but x to object-oriented programming ',
         description:'Python is an easy to learn, powerful programming language. It has efficient high-level data structures and a simple but effective approach to object-oriented programming ',
         link:'https://docs.python.org/3/tutorial/index.html'
-    },s
+    },
 
 ]
 
@@ -82,7 +83,7 @@ const DocInfo = () => {
                   <div className="card-body px-0">
                      <h5 className="card-title">{docs.occupation}</h5>
                      <p className="card-text">{docs.description}</p>
-                     <Link to='/doc-lists'>
+                     <Link to='/doc-list'>
                          <Button className='btn btn-primary text-uppercase'>
                              Back to Docs
                          </Button>
@@ -107,6 +108,7 @@ background:black;
 .card{
     background:transparent;
     border:none;
+    margin :4rem 4rem 4rem 4rem !important;
     
     
 }

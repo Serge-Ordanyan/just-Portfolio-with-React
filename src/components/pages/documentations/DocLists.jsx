@@ -1,14 +1,14 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import {Button} from '../Button'
+import {Button} from './Button'
 import styled from 'styled-components'
 //DOclists
-import list1 from '../../DocImg/js.png'
-import list2 from '../../DocImg/physics.png'
-import list3 from '../../DocImg/nodejs.png'
-import list4 from '../../DocImg/c.png'
-import list5 from '../../DocImg/hashtag.png'
-import list6 from '../../DocImg/python.png'
+import list1 from './docimages/js.png'
+import list2 from './docimages/physics.png'
+import list3 from './docimages/nodejs.png'
+import list4 from './docimages/c.png'
+import list5 from './docimages/hashtag.png'
+import list6 from './docimages/python.png'
 
 const DocLists = () => {
     return (
@@ -21,7 +21,7 @@ const DocLists = () => {
                               <h3 className="card-title text-center pb-2">
                                   Javascript
                               </h3>
-                                <Link to='/docs/info/0'>
+                                <Link to='/doc/info/0'>
                                      <Button className="btn btn-primary text-uppercase">Courses about JS</Button>
                                 </Link>
                           </div>
@@ -33,7 +33,7 @@ const DocLists = () => {
                               <h3 className="card-title text-center pb-2">
                                   React js
                               </h3>
-                                <Link to='/docs/info/1'>
+                                <Link to='/doc/info/1'>
                                      <Button className="btn btn-primary text-uppercase">Courses about React JS</Button>
                                 </Link>
                           </div>
@@ -45,7 +45,7 @@ const DocLists = () => {
                               <h3 className="card-title text-center pb-2">
                                   Node js
                               </h3>
-                                <Link to='/docs/info/2'>
+                                <Link to='/doc/info/2'>
                                      <Button className="btn btn-primary text-uppercase">Courses about Node  JS</Button>
                                 </Link>
                           </div>
@@ -58,7 +58,7 @@ const DocLists = () => {
                               <h3 className="card-title text-center pb-2">
                                   C++
                               </h3>
-                                <Link to='/docs/info/3'>
+                                <Link to='/doc/info/3'>
                                      <Button className="btn btn-primary text-uppercase">Courses about C++</Button>
                                 </Link>
                           </div>
@@ -70,7 +70,7 @@ const DocLists = () => {
                               <h3 className="card-title text-center pb-2">
                                   C#
                               </h3>
-                                <Link to='/docs/info/4'>
+                                <Link to='/doc/info/4'>
                                      <Button className="btn btn-primary text-uppercase">Courses about C#</Button>
                                 </Link>
                           </div>
@@ -82,7 +82,7 @@ const DocLists = () => {
                               <h3 className="card-title text-center pb-2">
                                 PHyton
                                 </h3>
-                                <Link to='/docs/info/5'>
+                                <Link to='/doc/info/5'>
                                      <Button className="btn btn-primary text-uppercase">Courses about Phyton</Button>
                                 </Link>
                           </div>
