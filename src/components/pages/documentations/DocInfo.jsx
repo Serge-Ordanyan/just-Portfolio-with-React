@@ -4,7 +4,7 @@ import Avatar from './Avatar'
 import {Link, useParams} from 'react-router-dom';
 import {Button} from './Button'
 
-//DOclists
+//DOcumentation imgs
 import list1 from './docimages/js.png'
 import list2 from './docimages/physics.png'
 import list3 from './docimages/nodejs.png'
@@ -104,11 +104,11 @@ export default DocInfo
 const MainContainer = styled.div`
 
 background:black;
+padding:5rem 0 0 0;
 
 .card{
     background:transparent;
     border:none;
-    margin :4rem 4rem 4rem 4rem !important;
     
     
 }

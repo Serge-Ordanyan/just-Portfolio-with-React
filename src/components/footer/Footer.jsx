@@ -119,4 +119,11 @@ const FooterContainer = styled.footer`
          color:white;
      }
 
+     .pt-5 {
+        
+        margin-top: -3rem;
+        padding-top: 1rem;
+        padding-bottom:2rem;
+    }
+
 `;
