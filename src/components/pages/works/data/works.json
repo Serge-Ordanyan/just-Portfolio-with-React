@@ -1,0 +1,44 @@
+{
+    "works":[
+        {
+            "nodejs":{
+                "title":"Node js developer",
+                "description":"As an asynchronous event-driven JavaScript runtime, Node.js is designed to build scalable network applications. In the following hello world example, many connections can be handled concurrently.",
+                "image":"../workslogo/nodejs.png"
+            }
+        },
+        
+        {
+            "angular":{
+                "title":"Angular developer",
+                "description":"As an asynchronous event-driven JavaScript runtime, Node.js is designed to build scalable network applications. In the following hello world example, many connections can be handled concurrently.",
+                "image":"../workslogo/angular.png"
+            }
+        },
+        
+        {
+            "django":{
+                "title":"django developer",
+                "description":"As an asynchronous event-driven JavaScript runtime, Node.js is designed to build scalable network applications. In the following hello world example, many connections can be handled concurrently.",
+                "image":"../workslogo/django.png"
+                
+            }
+        },
+        
+        {
+            "vuejs":{
+                "title":"Vue js developer",
+                "description":"As an asynchronous event-driven JavaScript runtime, Node.js is designed to build scalable network applications. In the following hello world example, many connections can be handled concurrently.",
+                "image":"../workslogo/vuejs.png"
+            }
+        },
+        
+        {
+            "scalla":{
+                "title":"Scalla developer",
+                "description":"As an asynchronous event-driven JavaScript runtime, Node.js is designed to build scalable network applications. In the following hello world example, many connections can be handled concurrently.",
+                "image":"../workslogo/scalla.png"
+            }
+        }
+    ]
+}

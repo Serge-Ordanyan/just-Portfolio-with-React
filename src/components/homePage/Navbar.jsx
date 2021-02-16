@@ -23,7 +23,7 @@ const Navbar = () => {
         </li>
         
         <li className="nav-item">
-          <NavLink className="nav-link" aria-current="page" to="/about">about me</NavLink>
+          <NavLink className="nav-link" aria-current="page" to="/works">we are hirring</NavLink>
         </li>
         
         <li className="nav-item">
@@ -43,7 +43,7 @@ const Navbar = () => {
        
         
         <li className="nav-item">
-          <NavLink className="nav-link" aria-current="page" to="/contacts">contacts</NavLink>
+          <NavLink className="nav-link" aria-current="page" to="/contact">contacts</NavLink>
         </li>
        
         

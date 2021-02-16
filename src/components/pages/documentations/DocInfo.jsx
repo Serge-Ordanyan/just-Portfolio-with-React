@@ -76,7 +76,7 @@ const DocInfo = () => {
     let docs = Docs[parseInt(id,6)]
     return (
         <MainContainer>
-          <div className="container mb-5">
+          <div className="container">
               <div className="card">
                   <Avatar docImage={docs.docImg} />
                   <h3>{docs.name}</h3>
